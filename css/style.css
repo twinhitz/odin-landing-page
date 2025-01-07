@@ -31,10 +31,27 @@ body {
 
 }
 
-.hero {
-
+.hero{
+    display: flex;
+    background-color: #1F2937;
+    color: #fff;
+    padding: 16px;
+    font-size: 48px;
 
 }
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+
+}
+
+p {
+    font-size: 18px;
+}
+
 
 .content {
 
@@ -43,7 +60,10 @@ body {
 
 
 button {
-
+    background-color: #3882F6;
+    color: #fff;
+    border-radius: 25px;
+    
 
 }
 
