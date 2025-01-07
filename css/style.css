@@ -35,16 +35,15 @@ body {
     display: flex;
     background-color: #1F2937;
     color: #fff;
-    padding: 16px;
+    padding: 100px 50px;
     font-size: 48px;
+    justify-content: center;
+    gap: 30px;
 
 }
 
 .hero-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3px;
+    max-width: 400px;
 
 }
 
@@ -63,7 +62,7 @@ button {
     background-color: #3882F6;
     color: #fff;
     border-radius: 25px;
-    
+    margin: 0px 100px;
 
 }
 
