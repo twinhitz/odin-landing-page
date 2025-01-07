@@ -27,13 +27,13 @@ body {
  flex-direction: row;
  justify-content: space-between;
  font-size: 24px;
- font-weight: 700px;
+ font-weight: 700;
 
 }
 
 .hero {
 
-    
+
 }
 
 .content {
@@ -57,6 +57,7 @@ ul {
     justify-content: space-between;
     gap: 16px;
     font-size: 18px;
+    font-weight: 100;
 
 }
 
