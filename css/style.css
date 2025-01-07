@@ -25,10 +25,9 @@ body {
 .header {
  display: flex;
  flex-direction: row;
- justify-content: space-between;
+ justify-content: space-around;
  font-size: 24px;
  font-weight: 700;
-
 }
 
 .hero{
@@ -53,7 +52,9 @@ p {
 
 
 .content {
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -64,6 +65,14 @@ button {
     border-radius: 25px;
     margin: 0px 100px;
 
+}
+
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 
