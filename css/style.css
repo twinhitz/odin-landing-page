@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+
 * {
     border: 2px solid red;
     box-sizing: border-box;
@@ -6,49 +11,68 @@
 
 }
 
-
 body {
 
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: 'Creepster', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #1F2937;    
     display: flex;
     flex-direction: column;
 
 }
 
-.flex-container {
-    display: flex;
-    justify-content: ;
-    background: #1F2937;
-    color: #fff;
-    justify-content: space-between;
+img {
+    max-width: 100%;
+}
+
+h1,
+h2{
+    margin-bottom: 15px;
 
 }
 
-.container,
-.footer{
-    background-color: #1F2937;
-    color: #fff;
+
+
+.header,
+.navbar,
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+.header {
+    min-height: 400px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+
 }
 
 .container {
- display: flex;
- flex-direction: row;
- justify-content: space-around;
+    max-width: 1100px;
  font-size: 24px;
  font-weight: 700;
+ display: flex;
+ justify-content: space-between;
 }
 
-.header{
-    display: flex;
-    background-color: #1F2937;
-    color: #fff;
-    padding: 100px 50px;
-    font-size: 48px;
-    justify-content: center;
-    gap: 30px;
+.navbar {
+    height: 60px;
+
 
 }
 
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+}
 
 
 p {
@@ -63,6 +87,11 @@ p {
 
 }
 
+
+.boxes {
+    background-color: #fff;
+    color:#1F2937;
+}
 
 button {
     background-color: #3882F6;
@@ -94,11 +123,19 @@ ul {
 
 }
 
-a {
-    text-decoration: none;
+.navbar ul li {
+    margin-left: 20px;
+
 }
 
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
 
+.navbar a:hover {
+    color: lightblue;
+}
 
 .footer {
      display: flex;
